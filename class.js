@@ -35,14 +35,21 @@ console.log(fact)
 //ASSIGNMENT 2
 // assignment -> take n from user and print first n prime numbers
 /*
-var num = parseInt(prompt("enter the number "));
-for(i=2;i<num;i++){
+var num = prompt("enter number");
+    for(i=2;i<=num;i++){
+    var count=0;
     for(j=2;j<i;j++) {
         if(i%j == 0){
-            console.log(i)
-        break;}}
+            count++;
+             break;
+            
+        }
         
-}
+    }
+        if (count==0){
+            console.log(i);
+        }
+    }
 
 */
 //ASSIGNMENT 3 -> check if a num is a perfect square or not
